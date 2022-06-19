@@ -1,0 +1,11 @@
+.folder-browser {
+    flex-direction: row;
+}
+
+.folder-browser .unity-button {
+}
+
+.folder-browser .unity-text-field {
+    flex-shrink: 1;
+    flex-grow: 1;
+}

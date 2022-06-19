@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Editor/FolderSettingsEditor.uss?fileID=7433441132597879392&amp;guid=2a9070032a1e2ef4ca15c37dfebc3014&amp;type=3#FolderSettingsEditor" />
+    <Style src="project://database/Assets/Scripts/CustomControls/Runtime/FolderBrowser/FolderBrowser.uss?fileID=7433441132597879392&amp;guid=f6d5c292e0beccd46b7a206268d5f61b&amp;type=3#FolderBrowser" />
+    <ui:Label text="Cannot Reuse" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+    <ui:VisualElement class="folder-browser">
+        <ui:TextField picking-mode="Ignore" label="Folder Path" readonly="true" />
+        <ui:Button text="Browse" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+    <ui:VisualElement style="height: 25px;" />
+    <ui:Label text="Reusable Custom Control" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+    <CustomControls.FolderBrowser show-absolute-path="true" />
+</ui:UXML>

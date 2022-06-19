@@ -1,0 +1,18 @@
+{
+    "name": "CustomControls.Editor",
+    "rootNamespace": "CustomControls.Editor",
+    "references": [
+        "CustomControls.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
